@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation DataDependencies.kotlin
+    implementation project(':domain')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
